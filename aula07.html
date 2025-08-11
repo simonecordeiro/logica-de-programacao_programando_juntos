@@ -1,0 +1,14 @@
+<script>
+    const lado_a = prompt("Informe o tamanho do lado A");
+    const lado_b = prompt("Informe o tamanho do lado B");
+    const lado_c = prompt("Informe o tamnho do lado C");
+    
+    if (lado_a == lado_b && lado_b == lado_c) {
+        console.log("eh um triangulo equilatero");
+    } else if (lado_a != lado_b && lado_a != lado_c && lado_b != lado_c) {
+        console.log("eh um triangulo escaleno");
+    } else {
+        console.log("eh um triangulo isosceles");
+    }
+        
+</script>
